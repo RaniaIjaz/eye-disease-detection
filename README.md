@@ -163,14 +163,3 @@ limitations. See [RUNNING.md](RUNNING.md) for reproducible commands.
     ├── gradcam_examples.png
     └── ...
 ```
-
-## Reproducibility
-
-The training script safely extracts the source ZIP into a cache, validates
-images, removes problematic exact duplicates, constructs deterministic grouped
-assignments that keep filename-matched patient groups together while treating
-unmatched images individually, trains the CNN, reloads the best checkpoint,
-evaluates the held-out test set, and generates all documented artifacts.
-Existing run folders are not overwritten.
-
-The original notebook and source ZIP are preserved unchanged.
