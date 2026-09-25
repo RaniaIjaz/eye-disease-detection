@@ -1,0 +1,9 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+runs/
+archive (3).zip
+eye_model.h5
+history.pkl
+README.initial.md
