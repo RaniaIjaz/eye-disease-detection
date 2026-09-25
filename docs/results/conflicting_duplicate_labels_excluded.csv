@@ -1,0 +1,5 @@
+path,filename,class_name,patient_key,sha256,size_bytes
+D:\eyediseasedetection\.cache\eye_dataset\extracted\dataset\cataract\1415_right.jpg,1415_right.jpg,cataract,1415,a4747f8ee41e5a00bee18fe3af4fb377c576f9c17d8f7d0309e6dbbc2d8ebfb3,55040
+D:\eyediseasedetection\.cache\eye_dataset\extracted\dataset\glaucoma\1415_right.jpg,1415_right.jpg,glaucoma,1415,a4747f8ee41e5a00bee18fe3af4fb377c576f9c17d8f7d0309e6dbbc2d8ebfb3,55040
+D:\eyediseasedetection\.cache\eye_dataset\extracted\dataset\cataract\625_left.jpg,625_left.jpg,cataract,625,b7496c3fd4473dfa7c7801f508d8456de32b1e5827afaa6ef4f32eb287194e44,58894
+D:\eyediseasedetection\.cache\eye_dataset\extracted\dataset\glaucoma\625_left.jpg,625_left.jpg,glaucoma,625,b7496c3fd4473dfa7c7801f508d8456de32b1e5827afaa6ef4f32eb287194e44,58894

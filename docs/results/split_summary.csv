@@ -1,0 +1,13 @@
+split,class_name,image_count
+test,cataract,155
+test,diabetic_retinopathy,164
+test,glaucoma,151
+test,normal,161
+train,cataract,726
+train,diabetic_retinopathy,770
+train,glaucoma,703
+train,normal,752
+validation,cataract,155
+validation,diabetic_retinopathy,164
+validation,glaucoma,151
+validation,normal,161

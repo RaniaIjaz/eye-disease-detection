@@ -1,0 +1,92 @@
+{
+  "dataset_root": "D:\\eyediseasedetection\\.cache\\eye_dataset\\extracted\\dataset",
+  "valid_source_images": 4217,
+  "corrupt_images": 0,
+  "retained_images_after_duplicate_handling": 4213,
+  "patient_filename_regex": "^(?P<patient_id>.+)_(?P<side>left|right)$",
+  "patient_pattern_matched_images": 2772,
+  "patient_pattern_matched_percentage": 65.79634464751958,
+  "individual_images_without_patient_pattern": 1441,
+  "individual_images_without_patient_pattern_percentage": 34.20365535248042,
+  "matched_unique_patient_ids": 1539,
+  "matched_patient_ids_with_two_or_more_images": 1201,
+  "matched_patient_ids_with_one_image": 338,
+  "matched_images_by_class": {
+    "cataract": 296,
+    "diabetic_retinopathy": 1098,
+    "glaucoma": 304,
+    "normal": 1074
+  },
+  "matched_images_by_extension": {
+    ".jpeg": 1098,
+    ".jpg": 1674
+  },
+  "matched_filename_examples": [
+    "0_left.jpg",
+    "10003_left.jpeg",
+    "10003_right.jpeg",
+    "10007_left.jpeg",
+    "10007_right.jpeg",
+    "10009_left.jpeg",
+    "10009_right.jpeg",
+    "1000_left.jpeg",
+    "1000_right.jpeg",
+    "10010_left.jpeg",
+    "10010_right.jpeg",
+    "10013_left.jpeg"
+  ],
+  "unmatched_filename_examples": [
+    "Glaucoma_001.png",
+    "Glaucoma_002.png",
+    "Glaucoma_003.png",
+    "Glaucoma_004.png",
+    "Glaucoma_005.png",
+    "Glaucoma_006.png",
+    "Glaucoma_007.png",
+    "Glaucoma_008.png",
+    "Glaucoma_009.png",
+    "Glaucoma_010.png",
+    "Glaucoma_011.png",
+    "Glaucoma_012.png"
+  ],
+  "unmatched_stems_repeated": {},
+  "exact_duplicate_content_groups": 2,
+  "image_files_in_exact_duplicate_groups": 4,
+  "same_label_duplicate_content_groups": 0,
+  "same_label_duplicate_files_removed": 0,
+  "conflicting_label_duplicate_content_groups": 2,
+  "conflicting_label_image_files_excluded": 4,
+  "conflicting_label_records": [
+    {
+      "sha256": "a4747f8ee41e5a00bee18fe3af4fb377c576f9c17d8f7d0309e6dbbc2d8ebfb3",
+      "files": [
+        {
+          "filename": "1415_right.jpg",
+          "class_name": "cataract",
+          "path": "D:\\eyediseasedetection\\.cache\\eye_dataset\\extracted\\dataset\\cataract\\1415_right.jpg"
+        },
+        {
+          "filename": "1415_right.jpg",
+          "class_name": "glaucoma",
+          "path": "D:\\eyediseasedetection\\.cache\\eye_dataset\\extracted\\dataset\\glaucoma\\1415_right.jpg"
+        }
+      ]
+    },
+    {
+      "sha256": "b7496c3fd4473dfa7c7801f508d8456de32b1e5827afaa6ef4f32eb287194e44",
+      "files": [
+        {
+          "filename": "625_left.jpg",
+          "class_name": "cataract",
+          "path": "D:\\eyediseasedetection\\.cache\\eye_dataset\\extracted\\dataset\\cataract\\625_left.jpg"
+        },
+        {
+          "filename": "625_left.jpg",
+          "class_name": "glaucoma",
+          "path": "D:\\eyediseasedetection\\.cache\\eye_dataset\\extracted\\dataset\\glaucoma\\625_left.jpg"
+        }
+      ]
+    }
+  ],
+  "corrupt_records": []
+}

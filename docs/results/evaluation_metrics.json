@@ -1,0 +1,73 @@
+{
+  "test_images": 631,
+  "accuracy": 0.7543581616481775,
+  "balanced_accuracy": 0.7548752538125402,
+  "macro_precision": 0.7882869583099161,
+  "macro_recall": 0.7548752538125402,
+  "macro_f1": 0.7553502811017124,
+  "weighted_f1": 0.7572704308087379,
+  "mean_confidence": 0.7627876400947571,
+  "correct_predictions": 476,
+  "incorrect_predictions": 155,
+  "inference_seconds_total": 5.806460199994035,
+  "inference_milliseconds_per_image": 9.20199714737565,
+  "model_size_bytes": 11437821,
+  "model_size_megabytes": 10.90795612335205,
+  "per_class_curves": {
+    "cataract": {
+      "roc_auc": 0.9787611818921117,
+      "pr_auc": 0.9435993126016564
+    },
+    "diabetic_retinopathy": {
+      "roc_auc": 0.9939416096516425,
+      "pr_auc": 0.9859644654594364
+    },
+    "glaucoma": {
+      "roc_auc": 0.8721854304635762,
+      "pr_auc": 0.6787608555882154
+    },
+    "normal": {
+      "roc_auc": 0.8827672789744945,
+      "pr_auc": 0.7312243293958922
+    }
+  },
+  "classification_report": {
+    "cataract": {
+      "precision": 0.9078014184397163,
+      "recall": 0.8258064516129032,
+      "f1-score": 0.8648648648648649,
+      "support": 155.0
+    },
+    "diabetic_retinopathy": {
+      "precision": 0.967948717948718,
+      "recall": 0.9207317073170732,
+      "f1-score": 0.94375,
+      "support": 164.0
+    },
+    "glaucoma": {
+      "precision": 0.5150214592274678,
+      "recall": 0.7947019867549668,
+      "f1-score": 0.625,
+      "support": 151.0
+    },
+    "normal": {
+      "precision": 0.7623762376237624,
+      "recall": 0.4782608695652174,
+      "f1-score": 0.5877862595419847,
+      "support": 161.0
+    },
+    "accuracy": 0.7543581616481775,
+    "macro avg": {
+      "precision": 0.7882869583099161,
+      "recall": 0.7548752538125402,
+      "f1-score": 0.7553502811017124,
+      "support": 631.0
+    },
+    "weighted avg": {
+      "precision": 0.7923353790848165,
+      "recall": 0.7543581616481775,
+      "f1-score": 0.7572704308087379,
+      "support": 631.0
+    }
+  }
+}
